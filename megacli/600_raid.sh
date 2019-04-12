@@ -9,7 +9,7 @@ function sysoOne(){
 		'metric': '${1}', 
 		'endpoint': '', 
 		'timestamp': `date +"%s"`,
-		'step': 60
+		'step': 600
 		'value': ${2},
 		'counterType': 'GAUGE',
 		'tags': '${3}'
